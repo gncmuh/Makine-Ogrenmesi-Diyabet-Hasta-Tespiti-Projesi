@@ -45,7 +45,7 @@ from sklearn.model_selection import KFold
 from mlxtend.evaluate import bias_variance_decomp
 import os 
 
-class diabets():
+class diyabet():
     
     def __init__(self):
         
@@ -386,7 +386,7 @@ class diabets():
         self.y2.to_csv(self.cevap_dosya,index=False,header=None)
        
     
-diabets()
+diyabet()
 
 
 
